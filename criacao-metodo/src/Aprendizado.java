@@ -17,5 +17,7 @@ public class Aprendizado {
 
         geladeira.abrirGeladeira();
         System.out.println("Geladeira fechada? " + geladeira.geladeiraAberta);
+
+     
     }
 }
