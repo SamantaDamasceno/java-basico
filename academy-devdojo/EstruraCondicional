@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class EstruturaCondicional{
+    public static void main (String[]args){
+        Scanner scanner = new Scanner(System.in);
+            int idade = 20;
+            System.out.println("qual a sua idade?");
+            idade = scanner.nextInt();
+                                            
+            if (idade >= 18){
+            System.out.println("Idade maior que 18 ");
+            }
+            System.out.println("Menor de idade");
+    }
+}
