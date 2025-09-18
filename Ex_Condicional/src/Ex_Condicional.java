@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Ex_Condicional{ 
-    public static void main(String[] args) throws Exception {
-        try (Scanner scan = new Scanner(System.in)) {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
             int mesada = 50;
             int mesMesada;
        
