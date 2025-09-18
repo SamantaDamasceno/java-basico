@@ -5,9 +5,8 @@ public class Ex_Condicional{
         try (Scanner scan = new Scanner(System.in)) {
             int mesada = 50;
             int mesMesada;
-            System.out.println("digite o valor rebido: ");
-            mesada = scan.nextInt();
-            System.out.println("digite o numero de meses: ");
+       
+            System.out.println("digite o numero de meses recebidos: ");
             mesMesada = scan.nextInt();
             int multiplicacao = mesada*mesMesada;
              System.out.println("A Soma do valor recebido é:" + multiplicacao);
